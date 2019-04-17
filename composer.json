@@ -1,0 +1,19 @@
+{
+    "require": {
+        "slim/slim": "^3.0",
+        "catfan/medoo": "^1.6",
+        "monolog/monolog": "^1.24",
+        "slim/twig-view": "^2.4",
+        "ext-gd": "*"
+    },
+    "autoload":{
+        "psr-4":{
+            "app\\":"app"
+        },
+        "files": [
+            "app/common/functions.php",
+            "app/common/constant.php",
+            "app/config"
+        ]
+    }
+}
